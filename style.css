@@ -1,0 +1,101 @@
+/* Styl nawigacji */
+.navbar {
+    background-color: rgba(6, 15, 104, 0.8); /* Kolor paska z delikatnym przezroczystym efektem */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.7); /* Cień */
+    height: 50px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #fff; /* Kolor tekstu w logo */
+}
+
+/* Kolor tekstu w zakładkach */
+.nav-link {
+    color: #fff !important;
+}
+
+/* Hover nad zakładkami */
+.nav-link:hover {
+    background-color: #f8f9fa !important; /* Kolor tła po najechaniu */
+    border-color: #f8f9fa !important; /* Kolor obramowania po najechaniu */
+    color: #e83e8c !important; /* Zmiana koloru tekstu po najechaniu */
+}
+
+/* Style przycisków */
+.btn-custom {
+    border-radius: 25px; /* Zaokrąglenie krawędzi */
+    transition: background-color 0.3s, border-color 0.3s; /* Płynne przejścia */
+}
+
+/* Styl dla przycisku "Dowiedz się więcej" */
+.btn-primary-custom {
+    background-color: rgba(6, 15, 104, 0.8) !important;
+    border-color: rgba(6, 15, 104, 0.8) !important;
+    padding: 10px 20px; /* Odstępy wewnątrz przycisku */
+    color: #fff;
+}
+
+/* Zmiana koloru tekstu na przycisku */
+.btn-primary-custom:hover,
+.btn-primary-custom:focus {
+    color: #540681 !important;
+}
+
+/* Przycisk "Dowiedz się więcej" na hover */
+.btn-primary-custom:hover {
+    background-color: #f8f9fa !important; /* Kolor tekstu w nawigacji */
+}
+
+/* Styl dla przycisku "Wyślij wiadomość" */
+#sendMessageButton {
+    background-color: rgba(6, 15, 104, 0.8) !important; /* Początkowy kolor tła */
+    border-color: rgba(6, 15, 104, 0.8) !important; /* Początkowy kolor obramowania */
+    color: #fff; /* Kolor tekstu */
+}
+
+/* Hover nad przyciskiem "Wyślij wiadomość" */
+#sendMessageButton:hover {
+    background-color: #f8f9fa !important; /* Kolor tła po najechaniu */
+    border-color: #f8f9fa !important; /* Kolor obramowania po najechaniu */
+    color: #540681 !important; /* Zmiana koloru tekstu po najechaniu */
+}
+
+/* Styl dla sekcji nagłówka (header) */
+header.masthead {
+    background: url('./baner.jpg') center center no-repeat; /* Środek obrazu jako tło */
+    background-size: cover; /* Obraz do rozmiaru sekcji */
+    text-align: center; /* Wyśrodkowanie tekstu */
+    padding: 200px 0; /* Odstęp */
+    height: 100vh; /* Wysokość sekcji na całą wysokość ekranu */
+}
+
+.team-member {
+    width: 100%; /* Szerokość na 100% dla jednolitego rozkładu */
+    text-align: center; /* Wyśrodkowanie tekstu */
+}
+
+/* Styl dla usługi po najechaniu */
+.service-item:hover {
+    background-color: transparent; /* Usuwa niebieskie podświetlenie */
+    border: 3px solid  rgba(6, 15, 104, 0.8); /* Ramka */
+    cursor: pointer;
+}
+
+/* Obramowanie między sekcjami "O Stronie" a "Usługi" */
+#about, #services {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 50px; /* Dodatkowy odstęp na dole sekcji "O Stronie" */
+}
+
+/* Obramowanie między sekcjami "Usługi" a "Portfolio" */
+#services, #portfolio {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 50px; /* Dodatkowy odstęp na dole sekcji "Usługi" */
+}
+
+/* Obramowanie między sekcjami "Portfolio" a "Kadra" */
+#portfolio, #our-team {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 50px; /* Dodatkowy odstęp na dole sekcji "Portfolio" */
+}

@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="WINNG - Twój partner w esporcie" />
+    <meta name="author" content="Sebastian Nowak - 135374" />
+    <title>WINNG</title>
+    <!-- Bootstrap Icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="logo_logowanie.png" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"/>
+    <!-- SimpleLightbox plugin CSS-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="style.css" rel="stylesheet" />
+    <!-- Biblioteka Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <a href="logowanie.html"></a>
+</head>
+
+<body id="page-top">
+    <!-- Pasek Nawigacji -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3 navbar-fixed-top navbar-hidden" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#page-top">
+                <img src="logo.png" alt="Logo" width="120" height="120">
+            </a>
+            <div class="navbar-collapse justify-content-end">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#about">O Stronie</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Usługi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#our-team">Kadra</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Kontakt</a></li>
+                    <a class="nav-link" href="login.html">Logowanie</a>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+   <!-- Nagłówek (Header) -->
+    <header class="masthead" style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('baner.jpg') center center no-repeat; background-size: cover;">
+        <div class="container px-4 px-lg-5 h-100">
+            <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center text-white">
+             <div class="col-lg-8 align-self-end">
+                 <h1 class="text-white font-weight-bold" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); color: #fff; background-color: rgba(0, 0, 0, 0.1); font-size: 46px;">
+                        Twój partner w esporcie
+                 </h1>
+                  <hr class="divider" />
+              </div>
+              <div class="col-lg-8 align-self-baseline">
+                <p class="text-white-75 mb-5" style="color: #fff; background-color: rgba(0, 0, 0, 0.1); font-size: 18px;">
+                    Witaj w świecie esportu, gdzie pasja spotyka profesjonalizm! Jesteśmy firmą specjalizującą się w organizacji turniejów esportowych oraz świadczeniu kompleksowych usług doradczych. Dzięki naszemu doświadczeniu możemy pomóc Ci w rozwijaniu swojej drużyny, zdobywaniu sponsorów i osiąganiu sukcesów na najwyższym poziomie. Dołącz do nas już dziś, gdzie esport staje się prawdziwą przygodą!
+                </p>
+                
+    <!-- Przycisk "Dowiedz się więcej" -->
+                <a class="btn btn-primary btn-xl btn-primary-custom" href="#services">Dowiedz się więcej</a>
+             </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Usługi" -->
+
+    <section class="page-section" id="services">
+        <div class="container">
+           <div class="text-center">
+               <h2 class="section-heading text-uppercase">Nasze Usługi</h2>
+               <hr class="divider" />
+            </div>
+            <div class="row text-center">
+    <!-- Usługa 1 -->
+     <div class="col-md-3 service-item" data-toggle="modal" data-target="#serviceModal1">
+        <span class="fa-stack fa-4x">
+    <!-- Ikona (font awesome) -->
+        <i class="fas fa-pen" style="color: rgba(6, 15, 104, 0.8);"></i>
+        </span>
+        <h4 class="my-3">Organizacja turniejów esportowych</h4>
+    </div>
+
+    <!-- Modal dla usługi 1 -->
+    <div class="modal fade" id="serviceModal1" tabindex="-1" role="dialog" aria-labelledby="serviceModal1Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="serviceModal1Label">Dodatkowe informacje</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+    <!-- Wyświetl dodatkowe informacje -->
+        <p>
+            Firma specjalizuje się w kompleksowej organizacji i zarządzaniu turniejami esportowymi. Oferuje szeroki zakres usług, obejmujący planowanie, promocję i realizację turniejów dla różnych gier. Bez względu na to, czy są to wydarzenia online czy tradycyjne turnieje na żywo, firma dba o wszystkie aspekty, zapewniając niezapomniane i profesjonalnie zorganizowane doświadczenia esportowe.
+        </p>
+        <p>
+            Ponadto, firma może poszczycić się udanymi wydarzeniami, których uczestnicy osiągnęli znaczące sukcesy, dzięki starannej organizacji turniejów oraz skutecznym strategiom promocyjnym.
+        </p>
+            <div id="serviceDetails1"></div>
+                <a href="#contact" class="btn btn-primary">Wyślij wiadomość</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Usługa 2 -->
+    <div class="col-md-3 service-item" data-toggle="modal" data-target="#serviceModal2">
+        <span class="fa-stack fa-4x">
+            <!-- Przykładowa ikona (font awesome) -->
+            <i class="fa-brands fa-leanpub" style="color: rgba(107, 9, 91, 0.8);"></i>
+        </span>
+        <h4 class="my-3">Zarządzanie Zespołem Esportowym</h4>
+    </div>
+
+    <!-- Modal dla usługi 2 -->
+    <div class="modal fade" id="serviceModal2" tabindex="-1" role="dialog" aria-labelledby="serviceModal2Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="serviceModal2Label">Dodatkowe informacje</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+    <!-- Wyświetl dodatkowe informacje -->
+        <p>
+            Firma specjalizuje się w kompleksowym zarządzaniu i reprezentowaniu zespołów esportowych. Świadczy usługi obejmujące negocjacje kontraktów, reprezentację graczy w kwestiach biznesowych oraz ogólną opiekę nad zespołem. Działania firmy wspierają rozwój i sukcesy zespołów na scenie krajowej i międzynarodowej.
+        </p>
+        <p>
+            Dodatkowo, firma może pochwalić się udanymi współpracami, które przyczyniły się do osiągnięcia znaczących sukcesów przez zarządzane zespoły esportowe. Profesjonalizm, doświadczenie i indywidualne podejście to cechy, które wyróżniają firmę w świecie esportu.
+        </p>
+            <div id="serviceDetails2"></div>
+                <a href="#contact" class="btn btn-primary">Wyślij wiadomość</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Usługa 3 -->
+    <div class="col-md-3 service-item" data-toggle="modal" data-target="#serviceModal3">
+        <span class="fa-stack fa-4x">
+            <!-- Przykładowa ikona (font awesome) -->
+            <i class="fa-solid fa-brain" style="color: rgba(6, 15, 104, 0.8);"></i>
+        </span>
+        <h4 class="my-3">Trening i Rozwój Graczy</h4>
+    </div>
+
+    <!-- Modal dla usługi 3 -->
+    <div class="modal fade" id="serviceModal3" tabindex="-1" role="dialog" aria-labelledby="serviceModal3Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="serviceModal3Label">Dodatkowe informacje</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                <!-- Wyświetl dodatkowe informacje -->
+                <p>
+                    Dla lepszego zrozumienia, jak firma podejmuje wyzwania w obszarze treningu i rozwoju graczy esportowych, postanowiliśmy opublikować kawałek wywiadu z jednym z naszych utalentowanych graczy. Oto, co nam powiedział:
+                </p>
+                <!-- Zdjęcie gracza -->
+                <img src="wywiad.jpg" alt="Zdjęcie Gracza" class="img-fluid mb-3">
+
+                <h5>Wywiad z Graczem CS2</h5>
+                <p>
+                    <strong>Redaktor:</strong> Jakie korzyści przyniosły Ci treningi i wsparcie firmy w rozwoju kariery esportowej?
+                </p>
+                <p>
+                    <strong>Refrezh:</strong> Treningi dostosowane do moich indywidualnych potrzeb naprawdę zwiększyły moje umiejętności. Firma nie tylko pomaga mi w doskonaleniu technicznych aspektów gry, ale także wspiera mnie psychicznie, co jest kluczowe podczas turniejów. 
+                    <p>
+                        <strong>Cały wywiad możecie zobaczyć na naszym kanale <a href="https://www.youtube.com/@winng5484">YouTube</a>.</strong>
+                    </p>
+                </p>
+                <div id="serviceDetails3"></div>
+                <a href="#contact" class="btn btn-primary">Wyślij wiadomość</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- Usługa 4 -->
+    <div class="col-md-3 service-item" data-toggle="modal" data-target="#serviceModal4">
+        <span class="fa-stack fa-4x">
+            <!-- Przykładowa ikona (font awesome) -->
+            <i class="fa-solid fa-gamepad" style="color: rgba(107, 9, 91, 0.8);"></i>
+        </span>
+        <h4 class="my-3">Sprzęt Gamingowy i Akcesoria</h4>
+    </div>
+
+    <!-- Modal dla usługi 4 -->
+    <div class="modal fade" id="serviceModal4" tabindex="-1" role="dialog" aria-labelledby="serviceModal4Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="serviceModal4Label">Dodatkowe informacje</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Wyświetl dodatkowe informacje -->
+                    <p>
+                        Firma specjalizuje się w handlu i dostarczaniu wysokiej jakości sprzętu gamingowego oraz akcesoriów. W ofercie znajdziesz produkty renomowanych marek, które są popularne wśród profesjonalnych graczy. Oto kilka przykładów najpopularniejszych produktów:
+                    </p>
+                    <ul>
+                        <li>Klawiatury mechaniczne: <em>Logitech G915 TKL</em></li>
+                        <li>Myszy gamingowe: <em>Logitech G Pro</em></li>
+                        <li>Słuchawki gamingowe: <em>Logitech G Pro X</em></li>
+                    </ul>
+                    <p>
+                        Działając jako partner renomowanych marek, firma gwarantuje dostęp do najnowszych technologii gamingowych, które pomogą podnieść poziom doświadczenia graczy.
+                    </p>
+                    <div id="serviceDetails4"></div>
+                    <a href="#contact" class="btn btn-primary">Wyślij wiadomość</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+          
+           
+    <!-- Usługa 5 -->
+    <div class="col-md-3 service-item" data-toggle="modal" data-target="#serviceModal5">
+        <span class="fa-stack fa-4x" style="color: rgba(6, 15, 104, 0.8);">
+            <i class="fa-solid fa-hand-holding-dollar"></i>
+        </span>
+        <h4 class="my-3">Sponsorowanie Zespołów i Wydarzeń</h4>
+    </div>
+
+    <!-- Modal dla usługi 5 -->
+    <div class="modal fade" id="serviceModal5" tabindex="-1" role="dialog" aria-labelledby="serviceModal5Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="serviceModal5Label">Dodatkowe informacje</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Wyświetl dodatkowe informacje -->
+                    <p>
+                        Firma nawiązuje partnerskie relacje sponsorskie z zespołami, graczami oraz wydarzeniami esportowymi. Sposób sponsoringu zależy od wielu czynników, takich jak znajomość marki, popularność organizowanego eventu, oraz cele marketingowe.
+                    </p>
+                    <p>
+                        Działając jako pośrednik, firma łączy marki z pasjonatami esportu, co przyczynia się do wzrostu widoczności i wsparcia finansowego dla zaangażowanych stron. Warunki sponsoringu są dostosowywane indywidualnie do potrzeb klienta, zapewniając optymalne korzyści dla obu stron.
+                    </p>
+                    <div id="serviceDetails5"></div>
+                    <a href="#contact" class="btn btn-primary">Wyślij wiadomość</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+          
+    <!-- Usługa 6 -->
+    <div class="col-md-3 service-item" data-toggle="modal" data-target="#serviceModal6">
+        <span class="fa-stack fa-4x" >
+            <i class="fa-solid fa-mobile-screen-button" style="color: rgba(107, 9, 91, 0.8);"></i>
+        </span>
+        <h4 class="my-3">Konsulting Esportowy</h4>
+    </div>
+
+     <!-- Modal dla usługi 6 -->
+            <div class="modal fade" id="serviceModal6" tabindex="-1" role="dialog" aria-labelledby="serviceModal6Label" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="serviceModal6Label">Dodatkowe informacje</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <!-- Wyświetl dodatkowe informacje -->
+                            Usługi konsultingowe firmy obejmują wsparcie w zakresie strategii esportowej, biznesowej i marketingowej. Zespół ekspertów oferuje doradztwo w zakresie planowania działań, pozyskiwania sponsorów, tworzenia efektywnych strategii marketingowych oraz rozwijania biznesu w dynamicznym środowisku esportu.
+                            <div id="serviceDetails1"></div>
+                            <a href="#contact" class="btn btn-primary">Wyślij wiadomość</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+    <!-- Usługa 7 -->
+    <div class="col-md-3 service-item" data-toggle="modal" data-target="#serviceModal7">
+        <span class="fa-stack fa-4x" style="color: rgba(6, 15, 104, 0.8);">
+            <i class="fa-solid fa-gavel"></i>
+        </span>
+        <h4 class="my-3">Usługi Prawne Esportowe</h4>
+    </div>
+
+    <!-- Modal dla usługi 7 -->
+    <div class="modal fade" id="serviceModal7" tabindex="-1" role="dialog" aria-labelledby="serviceModal7Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="serviceModal7Label">Dodatkowe informacje</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Wyświetl dodatkowe informacje -->
+                    <p>
+                        Firma świadczy usługi prawne w obszarze esportu, oferując kompleksową pomoc w kwestiach związanych z umowami, prawami autorskimi, prawem do wizerunku graczy i innymi aspektami prawno-biznesowymi. Działania firmy zapewniają ochronę interesów prawnych klientów w dynamicznym środowisku esportowym.
+                    </p>
+                    <p style="font-style: italic;">
+                        Firma może pochwalić się udanymi sprawami przed sądem, w tym wygraną w jednej z głośnych spraw z popularną firmą esportową, co potwierdza skuteczność świadczonych usług.
+                    </p>
+                    <div id="serviceDetails7"></div>
+                    <a href="#contact" class="btn btn-primary">Wyślij wiadomość</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Usługa 8 -->
+    <div class="col-md-3 service-item" data-toggle="modal" data-target="#serviceModal8">
+        <span class="fa-stack fa-4x" style="color: rgba(107, 9, 91, 0.8);">
+            <i class="fa-solid fa-desktop"></i>
+        </span>
+        <h4 class="my-3">Rozwiązania Technologiczne</h4>
+    </div>
+
+    <!-- Modal dla usługi 8 -->
+    <div class="modal fade" id="serviceModal8" tabindex="-1" role="dialog" aria-labelledby="serviceModal8Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="serviceModal8Label">Dodatkowe informacje</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Wyświetl dodatkowe informacje -->
+                    <p>
+                        Firma zajmuje się rozwijaniem i dostarczaniem innowacyjnych platform, narzędzi i technologii wspierających organizację turniejów esportowych. Działa na styku technologii i esportu, dostarczając kompleksowe rozwiązania, które poprawiają jakość i przebieg turniejów.
+                    </p>
+                    <p style="font-style: italic;">
+                        Opinie klientów:
+                        <blockquote>
+                            <p>"Zespół firmy dostarczył nam niezwykle skuteczne narzędzia, które znacznie usprawniły nasze turnieje. Ich podejście do technologii w esporcie zasługuje na uznanie."</p>
+                            <footer>Jan Kowalski, Manager turnieju</footer>
+                        </blockquote>
+                        <blockquote>
+                            <p>"Dzięki rozwiązaniom technologicznym tej firmy, nasze wydarzenia esportowe stały się bardziej profesjonalne i atrakcyjne dla uczestników. Polecam z pełnym przekonaniem."</p>
+                            <footer>Alicja Nowak, Organizator wydarzeń esportowych</footer>
+                        </blockquote>
+                    </p>
+                    <div id="serviceDetails8"></div>
+                    <a href="#contact" class="btn btn-primary">Wyślij wiadomość</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Portfolio -->
+    <section class="page-section" id="portfolio">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Portfolio</h2>
+                <hr class="divider" />
+        </div>
+
+    <!-- Siatka złożona z 6 obrazów -->
+    <div class="row no-gutters">
+        <div class="col-md-4">
+            <a class="portfolio-item" href="#portfolioModal1" data-toggle="modal">
+                <img class="img-fluid" src="portfolio1.jpg" alt="Portfolio 1" />
+            </a>
+    </div>
+    <!-- Modal dla obrazu 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="modal-body text-center">
+                    <img class="img-fluid" src="portfolio1.jpg" alt="Portfolio 1" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <a class="portfolio-item" href="#portfolioModal2" data-toggle="modal">
+            <img class="img-fluid" src="portfolio2.jpg" alt="Portfolio 2" />
+        </a>
+    </div>
+    <!-- Modal dla obrazu 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="modal-body text-center">
+                    <img class="img-fluid" src="portfolio2.jpg" alt="Portfolio 2" />
+                </div>
+            </div>
+        </div>
+    </div>
+            <div class="col-md-4">
+                <a class="portfolio-item" href="#portfolioModal3" data-toggle="modal">
+                    <img class="img-fluid" src="portfolio3.jpg" alt="Portfolio 3" />
+                </a>
+            </div>
+    <!-- Modal dla obrazu 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="modal-body text-center">
+                    <img class="img-fluid" src="portfolio3.jpg" alt="Portfolio 3" />
+                </div>
+            </div>
+        </div>
+    </div>
+            <div class="col-md-4">
+                <a class="portfolio-item" href="#portfolioModal4" data-toggle="modal">
+                    <img class="img-fluid" src="portfolio4.jpg" alt="Portfolio 4" />
+                </a>
+            </div>
+    <!-- Modal dla obrazu 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="portfolioModal4Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="modal-body text-center">
+                    <img class="img-fluid" src="portfolio4.jpg" alt="Portfolio 4" />
+                </div>
+            </div>
+        </div>
+    </div>
+            <div class="col-md-4">
+                <a class="portfolio-item" href="#portfolioModal5" data-toggle="modal">
+                    <img class="img-fluid" src="portfolio5.jpg" alt="Portfolio 5" />
+                </a>
+            </div>
+    <!-- Modal dla obrazu 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-labelledby="portfolioModal5Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="modal-body text-center">
+                    <img class="img-fluid" src="portfolio5.jpg" alt="Portfolio 5" />
+                </div>
+            </div>
+        </div>
+    </div>
+            <div class="col-md-4">
+                <a class="portfolio-item" href="#portfolioModal6" data-toggle="modal">
+                    <img class="img-fluid" src="portfolio6.jpg" alt="Portfolio 6" />
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Modal dla obrazu 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-labelledby="portfolioModal6Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="modal-body text-center">
+                    <img class="img-fluid" src="portfolio6.jpg" alt="Portfolio 6" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SimpleLightbox plugin JS do obsługi galerii -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+
+    <!-- Skrypt do aktywowania galerii -->
+    <script>
+        var gallery = new SimpleLightbox('.portfolio-item');
+    </script>
+    </section>
+
+    <!-- Nasza Kadra -->
+    <section class="page-section" id="our-team">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Nasza Kadra</h2>
+                <hr class="divider" />
+            </div>
+            <div class="row text-center">
+    <!-- Osoba 1 -->
+    <div class="col-md-4">
+        <div class="team-member mt-4">
+            <img class="mx-auto rounded-circle" src="osoba1.jpg" alt="Parveen Anand" />
+            <h4>Sebastian Nowak </h4>
+            <p class="text-muted">Lead Designer</p>
+    <!-- Ikony do portali społecznościowych -->
+        <ul class="list-inline social-buttons">
+            <li class="list-inline-item">
+                <a href="https://twitter.com/WRCSGGPL">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="https://www.facebook.com/sebastian.nowak.942145">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="https://md.linkedin.com/in/random-user-16250322b?trk=people-guest_people_search-card">
+                    <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Osoba 2 -->
+    <div class="col-md-4">
+        <div class="team-member">
+            <img class="mx-auto rounded-circle" src="osoba2.jpg" alt="Diana Petersen" />
+                <h4>Jakub Kowalski</h4>
+                    <p class="text-muted">Lead Marketer</p>
+    <!-- Ikony do portali społecznościowych -->
+        <ul class="list-inline social-buttons">
+            <li class="list-inline-item">
+                <a href="https://twitter.com/Random_User143">
+                    <i class="fab fa-twitter"></i>
+            </li>
+            <li class="list-inline-item">
+                <a href="https://www.facebook.com/profile.php?id=100023623637786">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="https://md.linkedin.com/in/random-user-16250322b?trk=people-guest_people_search-card">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+        </ul>
+        </div>
+    </div>
+
+    <!-- Osoba 3 -->
+    <div class="col-md-4">
+        <div class="team-member">
+            <img class="mx-auto rounded-circle" src="osoba3.jpg" alt="John Doe" />
+                <h4>Michał Wiśniewski</h4>
+                    <p class="text-muted">Lead Developer</p>
+    <!-- Ikony do portali społecznościowych -->
+        <ul class="list-inline social-buttons">
+            <li class="list-inline-item">
+                <a href="https://twitter.com/random">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="https://www.facebook.com/profile.php?id=61555336435890">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/random-user-17b1a212?trk=people-guest_people_search-card">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+        </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+
+
+    <!-- Kontakt -->
+    <section class="page-section" id="contact">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">SKONTAKTUJ SIĘ!</h2>
+                    <hr class="divider" />
+                        <p class="text-muted">Gotowy, aby rozpocząć z nami owocną współpracę? Wyślij nam wiadomość, a my skontaktujemy się z Tobą tak szybko, jak to możliwe!</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." required="required" data-validation-required-message="Please enter your name." />
+                                <label for="name">Imię i Nazwisko</label>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-floating">
+                                <input class="form-control" id="email" type="email" placeholder="name@example.com" required="required" data-validation-required-message="Please enter your email address." />
+                                <label for="email">Adres Email</label>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-floating">
+                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" required="required" data-validation-required-message="Please enter your phone number." />
+                                <label for="phone">Numer telefonu</label>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <textarea class="form-control" id="message" placeholder="Enter your message here..." style="height: 10rem;" required="required" data-validation-required-message="Please enter a message."></textarea>
+                                <label for="message">Treść wiadomości</label>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-lg-12 text-center">
+                            <div id="success"></div>
+    <!-- Przycisk "Wyślij wiadomość" -->
+        <button id="sendMessageButton" class="btn btn-primary-custom btn-xl text-uppercase" type="submit">Wyślij wiadomość</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center mt-4">
+                <a class="navbar-brand" href="#page-top">
+                    <img src="kontakt.png" alt="Logo" width="30" height="30">
+                </a>
+                <p>+48 555-555-555 </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- O Stronie -->
+    <section class="page-section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-uppercase">O Stronie</h2>
+                
+                    <!-- Do kogo strona jest skierowana -->
+                    <p><strong>Do kogo strona jest skierowana:</strong> Strona internetowa jest skierowana głównie do entuzjastów esportu, osób które są zainteresowane organizacją turniejów esportowych, marketingiem oraz szeroko pojętym rozwojem kariery. Adresatami witryny są osoby, które poszukują informacji o naszych usługach, chcą zobaczyć nasze dotychczasowe projekty, dowiedzieć się więcej o naszym zespole oraz nawiązać z nami kontakt.</p>
+                    
+                    <!-- Jak została zaprojektowana strona -->
+                    <p><strong>Jak została zaprojektowana strona:</strong> Strona została zaprojektowana w sposób nowoczesny i przejrzysty. Do stworzenia projektu użyto kolorów, które odzwierciedlają energię i dynamiczność świata esportu. Głównie skorzystałem z palety barw składającej się z odcieni niebieskiego i różowych akcentów, co nadaje stronie profesjonalny i przyjazny wygląd. Zdjęcia użyte na stronie są starannie wyselekcjonowane, a ich głównym celem jest ukazanie naszych umiejętności.</p>
+                    
+                    <!-- Opis paska nawigacji -->
+                    <p><strong>Opis paska nawigacji:</strong> Nawigacja na stronie została zaprojektowana w taki sposób, aby była łatwa w obsłudze i intuicyjna dla użytkowników. Pasek nawigacyjny umieszczony na górze strony zawiera klarowne linki do poszczególnych sekcji, ułatwiając szybkie poruszanie się po witrynie.</p>
+                    
+                    <!-- Opis usług -->
+                    <p><strong>Opis usług:</strong> Na stronie prezentujemy różnorodne usługi związane z esportem, zarządzaniem zespołem esportowym, treningiem i rozwojem graczy, sprzętem gamingowym i akcesoriami oraz innymi. Każda usługa jest szczegółowo opisana, a także zaprezentowana wizualnie, co pozwala użytkownikom lepiej zrozumieć, na czym polega naszą oferta.</p>
+                    
+                    <!-- Opis portfolio -->
+                    <p><strong>Opis portfolio:</strong> Sekcja Portfolio przedstawia dotychczasowe projekty w formie graficznej galerii. Każdy projekt jest reprezentowany przez zdjęcie, które po kliknięciu przenosi użytkownika do rzeczywistych wymiarów obrazu. To miejsce pozwala klientom zobaczyć nasze umiejętności w praktyce.</p>
+                    
+                    <!-- Opis kadry -->
+                    <p><strong>Opis kadry:</strong> Sekcja "Nasza Kadra" przedstawia nasz fikcyjny zespół, podając imiona, nazwiska, stanowiska oraz linki do profili w mediach społecznościowych. To umożliwia użytkownikom bliższe poznanie osób odpowiedzialnych za projekty i kontaktowanie się z nimi.</p>
+                    
+                    <!-- Opis kontakt -->
+                    <p><strong>Opis kontakt:</strong> W sekcji "Skontaktuj się!" zachęcamy użytkowników do nawiązania z nami kontaktu. Udostępniamy formularz kontaktowy, który pozwala na szybkie wysłanie wiadomości. Dodatkowo, podajemy informacje kontaktowe.</p>
+                    
+                    <!-- Opis logowania - oddzielna podstrona -->
+                    <p><strong>Opis logowania - oddzielna podstrona:</strong> Podstrona logowania została stworzona z myślą o użytkownikach, którzy chcą uzyskać dostęp do specjalnych funkcji, takich jak zarządzanie projektem czy korzystanie z indywidualnych usług. Na tej podstronie użytkownicy mogą wprowadzić swoje dane logowania i uzyskać dostęp do dedykowanych zasobów.</p>
+                    
+                    <!-- Użycie oprogramowania -->
+                    <p><strong>Użycie oprogramowania:</strong> Strona została stworzona przy użyciu HTML5, CSS3 oraz frameworka Bootstrap, co zapewnia responsywność i estetyczny wygląd na różnych urządzeniach. Do obsługi interakcji oraz dynamicznych efektów wykorzystano również JavaScript. Dodatkowo, użyto ikon z pakietu FontAwesome. Grafikę i zdjęcia umieszczono, korzystając z bezpłatnych licencji ze stron: freepik.com , pexels.com, flaction.com oraz unsplash.com . Logo witryny zostało stworzone przeze mnie w programie Photoshop.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Stopka -->
+<footer class="bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>Copyright © 2023 - Sebastian Nowak  - 135374</p>
+                </div>
+            </div>
+        </div>
+</footer>
+
+     <!-- Bootstrap core JS-->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+     <!-- Bootstrap core JS-->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.bundle.min.js""></script>
+     <!-- SimpleLightbox plugin JS - podglad zdjec-->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+     <!-- Core theme JS-->
+     <script src="js/scripts.js"></script>
+     <!-- SB Forms JS - obsluga formularzy -->
+     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+     <!--Biblioteka Javy - pozycjonowanie elementów, wyskakujace okna, dropdowny -->
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+
+ </body>
+ </html>
